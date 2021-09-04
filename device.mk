@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     FrameworksResShennong \
     SettingsProviderResShennong \
     SystemUIResShennong \
+    SettingsResShennong \
     WifiResShennong
 
 # Soong namespaces
