@@ -9,5 +9,8 @@ DEVICE_PATH := device/xiaomi/shennong
 # Inherit from sm8650-common
 include device/xiaomi/sm8650-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 560
+
 # Include proprietary files
 include vendor/xiaomi/shennong/BoardConfigVendor.mk
